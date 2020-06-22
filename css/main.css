@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .wrapper {
@@ -14,7 +14,7 @@
 .left-container {
     width: 45%;
     height: 100%;
-    background: linear-gradient(180deg, rgba(55, 240, 155, 1) 0%, rgba(103, 127, 236, 1) 100%);
+    background: linear-gradient( 180deg, rgba(55, 240, 155, 1) 0%, rgba(103, 127, 236, 1) 100%);
     color: white;
     display: flex;
     align-items: center;
@@ -35,14 +35,14 @@
     width: 75px;
     border-radius: 50%;
     border: none;
-    background: #6584E8;
+    background: #6584e8;
     color: white;
 }
 
 .right-container {
     padding: 100px;
     width: 55%;
-    color: #6584E8;
+    color: #6584e8;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,7 +55,7 @@
 #method-change button {
     display: inline block;
     padding: 5px 10px 5px 10px;
-    border: 1px solid #6584E8;
+    border: 1px solid #6584e8;
     text-decoration: none;
     background: none;
     cursor: pointer;
@@ -63,7 +63,7 @@
 
 #sign-up {
     color: white;
-    background-color: #6584E8;
+    background-color: #6584e8;
 }
 
 #form-signup {
@@ -73,7 +73,7 @@
 .form-input {
     display: inline block;
     border: none;
-    border-bottom: 0.15rem solid #6584E8;
+    border-bottom: 0.15rem solid #6584e8;
     width: 70%;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -91,11 +91,11 @@ h3 {
     margin-top: 20px;
     border: none;
     color: white;
-    background: #6584E8;
+    background: #6584e8;
 }
 
 #method-change #button-signup-mc {
-    background-color: #6584E8;
+    background-color: #6584e8;
     color: white;
 }
 
@@ -105,7 +105,7 @@ h3 {
 
 #anchor-terms {
     text-decoration: none;
-    color: #3AE9A0;
+    color: #3ae9a0;
 }
 
 #button-login {
@@ -114,5 +114,40 @@ h3 {
     margin-top: 20px;
     border: none;
     color: white;
-    background: #6584E8;
+    background: #6584e8;
+}
+
+@media all and (max-width: 768px) {
+    .wrapper {
+        flex-direction: column;
+    }
+    .left-container {
+        width: 100%;
+        height: 250px;
+    }
+    #arrow-icon {
+        bottom: -40px;
+        height: 75px;
+        width: 75px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        transform: rotate(90deg);
+        border-radius: 50%;
+        border: none;
+        background: #6584e8;
+        color: white;
+    }
+    .right-container {
+        width: 90%;
+        padding: 40px 10px;
+        margin: 0 auto;
+    }
+    #method-change {
+        margin: 10px auto;
+    }
+    .form-input {
+        width: 100%;
+    }
 }

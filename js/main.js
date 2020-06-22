@@ -36,18 +36,18 @@ const form_login_component = `
     <button id="button-login">Login</button>`;
 
 const form_signup_component = `
-<h3>FULL NAME</h3>
-<input class="form-input" type="text" name="input-name" id="name" placeholder="Your name here">
+    <h3>FULL NAME</h3>
+    <input class="form-input" type="text" name="input-name" id="name" placeholder="Your name here">
 
-<h3>PASSWORD</h3>
-<input class="form-input" type="password" name="input-password" id="password" placeholder="Your password here">
+    <h3>PASSWORD</h3>
+    <input class="form-input" type="password" name="input-password" id="password" placeholder="Your password here">
 
-<h3>EMAIL</h3>
-<input class="form-input" type="email" name="input-email" id="email" placeholder="example@example.com"><br>
+    <h3>EMAIL</h3>
+    <input class="form-input" type="email" name="input-email" id="email" placeholder="example@example.com"><br>
 
-<input type="checkbox" id="terms-conditions" name="terms-conditions" value="terms-conditions">
-<label for="terms-conditions"> Accept the <a href="" id="anchor-terms">terms and conditions</a></label>
+    <input type="checkbox" id="terms-conditions" name="terms-conditions" value="terms-conditions">
+    <label for="terms-conditions"> Accept the <a href="" id="anchor-terms">terms and conditions</a></label>
 
-<br>
+    <br>
 
-<button id="submit-button-signup">Sign Up</button>`;
+    <button id="submit-button-signup">Sign Up</button>`;
